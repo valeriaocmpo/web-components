@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Web Components</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chango&family=Figtree:ital,wght@0,300..900;1,300..900&family=Kumbh+Sans:wght@100..900&family=Moderustic:wght@300..800&family=Outfit:wght@100..900&family=Passion+One:wght@400;700;900&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" type="module"></script>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <form action="" class="contact-form">
+                    <h2>
+                        Contact Form
+                    </h2>
+                    <fieldset>
+                        <legend>User Information</legend>
+
+                        <div class="form">
+                            <label for="full-name">Full name</label>
+                            <capped-input type="text" id="full-name" name="full-name" placeholder="Full name" limit="30"
+                                required></capped-input>
+                            <label for="email">Email</label>
+                            <capped-input type="email" id="email" name="email" limit="80" placeholder="Email"
+                                limit="60"></capped-input>
+                            <label for="comment">Submit your comment</label>
+                            <capped-textarea name="comment" id="comment" limit="70"></capped-textarea>
+
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

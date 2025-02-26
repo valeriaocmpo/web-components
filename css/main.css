@@ -1,0 +1,44 @@
+:root {
+  --amber-color: #ff9800;
+  --red-color: #f44336;
+  --amber-light: #ffe699;
+  --red-light: #f6a7a2;
+  --base-color: #ccc;
+}
+
+html {
+  font-family: "Moderustic", sans-serif;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: block;
+}
+
+.container {
+  width: min(65em, 100%);
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
+}
+
+.contact-form {
+  background-color: var(--base-color);
+
+  h2 {
+    padding-inline-start: 0.7rem;
+    margin-block-end: 0.5rem;
+  }
+}
+
+fieldset {
+  border: none;
+}
